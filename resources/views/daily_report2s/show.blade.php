@@ -4,7 +4,7 @@
 
 <div class="back-link">
   <a href="{{ route('travel_expenses.index') }}">&laquo; トップページに戻る</a>
-  <a href="{{ route('daily_reports.create') }}">&laquo; 会社日報（社員）の登録に移動</a>
+  <a href="{{ route('daily_report2s.create') }}">&laquo; 会社日報（社員）の登録に移動</a>
 </div>
 
 <div class="container">
