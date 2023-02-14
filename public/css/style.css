@@ -1,0 +1,85 @@
+/* 出張費用明細 */
+
+.back-link > a {
+  display: block;
+  padding: 5px;
+}
+label {
+  display: flex;
+  align-items: center;
+  margin: 2px;
+  font-size: 12px;
+
+}
+
+.typing_place {
+  width: 150px;
+}
+
+.typing_place1 {
+  width: 500px;
+}
+
+h1 {
+  font-size: 22px;
+}
+
+h2 {
+  font-size: 20px;
+  color:darkgreen;
+  margin-bottom: 10px;
+}
+
+th,td {
+  font-size: 10px;
+}
+
+label > .label {
+  width: 70px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.column {
+  width: 60px;
+  border: dotted 1px black;
+}
+
+.column1 {
+  width: 250px;
+}
+.form-group {
+  margin: 10px auto;
+}
+
+.form-group-search-customer-name > input {
+  /* display: block; */
+}
+
+.form-group-search-customer-name2 > span {
+  margin-right: 15px;
+}
+
+.form-group-search-customer-name > .form-group-search-customer-name1, .form-group-search-customer-name2 {
+  margin: 2px;
+  border-bottom: 1px solid black;
+  display: inline-block;
+}
+
+.customer_name_total {
+  color: red;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  color: red;
+  background-color: #ffffff;
+}
+
+/* 会社日報 */
+.daily_report {
+  width: 500px;
+}
