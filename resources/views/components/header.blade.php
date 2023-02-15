@@ -7,7 +7,7 @@
     </button>
     <ul class="dropdown-menu">
       <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-itme" href="{{ route('travel_expenses.create')}}">出張費用明細</a></li>
+      <li><a class="dropdown-item" href="{{ route('travel_expenses.create')}}">出張費用明細</a></li>
     </ul>
   </div>
 
@@ -18,8 +18,8 @@
     </button>
     <ul class="dropdown-menu">
       <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-itme" href="{{ route('daily_reports.create')}}">会社日報（田中）</a></li>
-      <li><a class="dropdown-itme" href="{{ route('daily_report2s.create')}}">会社日報（社員）</a></li>
+      <li><a class="dropdown-item" href="{{ route('daily_reports.create')}}">会社日報（田中）</a></li>
+      <li><a class="dropdown-item" href="{{ route('daily_report2s.create')}}">会社日報（社員）</a></li>
 
     </ul>
   </div>

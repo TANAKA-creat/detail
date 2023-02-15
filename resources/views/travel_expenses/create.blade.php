@@ -38,10 +38,6 @@
       <input type="integer" name="to_ticket_fee" class="typing_place" placeholder="チケット帰り" value="{{ old('to_ticket_fee')}}">
     </label>
     <label>
-      <span class="label">チケット帰り:</span>
-      <input type="integer" name="to_ticket_fee" class="typing_place" placeholder="チケット帰り" value="{{ old('to_ticket_fee')}}">
-    </label>
-    <label>
       {{-- <span class="label">合計:</span> --}}
       <input type="hidden" name="total" class="typing_place">
     </label>
