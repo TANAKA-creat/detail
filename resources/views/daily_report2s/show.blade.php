@@ -41,7 +41,7 @@
       <td class="column">{{ $daily_report2->employee_8 }}</td>
       <td class="column">{{ $daily_report2->employee_9 }}</td>
       <td class="column"><a href="/daily_report2s/edit/{{ $daily_report2->id}}">編集</a></td>
-      <td>
+      <td class="column">
         <form method="POST" action="{{ route('daily_report2s.destroy', $daily_report2->id) }}" id="delete">
           @method('DELETE')
           @csrf
