@@ -61,6 +61,7 @@ class DailyReport2Controller extends Controller
     public function show()
     {
         $daily_report2s = DailyReport2::all();
+        $daily_report2s = DailyReport2::latest('date')->get();
 
         return view('daily_report2s.show',compact('daily_report2s'));
     }

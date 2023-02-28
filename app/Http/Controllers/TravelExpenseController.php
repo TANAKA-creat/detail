@@ -68,6 +68,7 @@ class TravelExpenseController extends Controller
     public function show()
     {
         $travel_expenses = TravelExpense::all();
+        $travel_expenses = TravelExpense::latest('from')->get();
 
         return view('travel_expenses.show', compact('travel_expenses'));
         

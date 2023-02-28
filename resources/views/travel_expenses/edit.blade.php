@@ -59,8 +59,7 @@
     </label>
     <label>
       <span class="label">備忘録・メモ:</span>
-      <input type="text" name="memo" class="typing_place typing_place1" placeholder="備忘録・メモ" value="{{ $travel_expense->memo }}"></input>
-    </label>
+      <input type="text" name="memo" class="typing_place typing_place1" placeholder="備忘録・メモ" value="{{ $travel_expense->memo }}">
     <button type="submit" class="btn btn-success btn-sm shadow">編集</button>
   </form>
 </div>
