@@ -8,6 +8,7 @@
     <ul class="dropdown-menu">
       <li><hr class="dropdown-divider"></li>
       <li><a class="dropdown-item" href="{{ route('travel_expenses.create')}}">出張費用明細</a></li>
+      <li><a class="dropdown-item" href="{{ route('attendance_statuses.create')}}">出勤状況</a></li>
     </ul>
   </div>
 

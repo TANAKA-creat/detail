@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TravelExpenseController;
 use App\Http\Controllers\DailyReportController;
 use App\Http\Controllers\DailyReport2Controller;
-
+use App\Http\Controllers\AttendanceStatusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -113,6 +113,37 @@ Route::post('/daily_report2s/update/{daily_report2}', [DailyReport2Controller::c
 Route::delete('/daily_report2s/{daily_report2}/destroy', [DailyReport2Controller::class, 'destroy'])
 ->name('daily_report2s.destroy')
 ->where('daily_report2','[0-9]+');
+
+
+// attendance_status
+Route::get('/attendance_statuses/show', [AttendanceStatusController::class, 'show'])
+->name('attendance_statuses.show')
+->where('attendance_status','[0-9]+');
+
+// Route::get('/travel_expenses/show2', [TravelExpenseController::class, 'show2'])
+// ->name('travel_expenses.show2')
+// ->where('travel_expense','[0-9]+');
+
+Route::get('/attendance_statuses/create', [AttendanceStatusController::class, 'create'])
+->name('attendance_statuses.create')
+->where('attendance_status','[0-9]+');
+
+Route::post('/attendance_statuses/store', [AttendanceStatusController::class, 'store'])
+->name('attendance_statuses.store')
+->where('attendance_status','[0-9]+');
+
+Route::get('/attendance_statuses/edit/{attendance_status}', [AttendanceStatusController::class, 'edit'])
+->name('attendance_statuses.edit')
+->where('attendance_status','[0-9]+');
+
+Route::post('/attendance_statuses/update/{attendance_status}', [AttendanceStatusController::class, 'update'])
+->name('attendance_statuses.update')
+->where('attendance_status','[0-9]+');
+
+Route::delete('/attendance_statuses/{attendance_status}/destroy', [AttendanceStatusController::class, 'destroy'])
+->name('attendance_statuses.destroy')
+->where('attendance_status','[0-9]+');
+
 
 
 

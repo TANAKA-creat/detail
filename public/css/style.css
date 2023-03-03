@@ -32,6 +32,7 @@ h2 {
 
 th,td {
   font-size: 10px;
+  text-align: center;
 }
 
 label > .label {
